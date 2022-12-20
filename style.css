@@ -1,0 +1,55 @@
+:root{
+    --black-color: #111;
+    --red-color: #700;
+    --green-color: #0d640d;
+}
+
+body{
+    margin: 0;
+}
+
+.roulette-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    justify-content: center;
+    background-color: #222;
+}
+
+.roulette{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    width: 100%;
+    background-color: #444;
+}
+
+.roulette-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    width: 120px;
+    color: #fff;
+    font: 60px sans-serif;
+}
+
+#btn-spin{
+    height: 50px;
+    width: 200px;
+}
+
+.numbers{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px auto;
+    padding: 100px;
+    height: 800px;
+    width: 800px;
+    gap: 10px;
+    background-color: #444;
+}
