@@ -1,0 +1,18 @@
+body{
+    background-color: #555;
+}
+
+.form{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 400px;
+    width: 300px;
+    padding: 20px;
+    background-color: #444;
+}
+
+.form input{
+    width: 100%;
+}
